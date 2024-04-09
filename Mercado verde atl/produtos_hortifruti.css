@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 255, 245);
+}
+
+header{
+    background-color: rgb(157, 175, 131);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo{
+    margin: 40px 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(253, 255, 251);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.botaopesquisa{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    border: 1px solid transparent;
+    background-color: rgb(120, 134, 105);
+    color: white;
+
+}
+
+.barrapesq{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    width: 350px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-flex;
+    margin-top: 35px;
+    justify-content: flex-end;
+    margin-right: 40px;
+    color: rgb(246, 255, 247);
+    margin: 35px 10px;
+}
